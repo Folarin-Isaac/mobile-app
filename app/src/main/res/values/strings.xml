@@ -1,0 +1,88 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">TS App</string>
+    <string name="ts_logo"> TS logo </string>
+
+    <!-- SPLASH SCREEN -->
+    <string name="splash_text"> Raising Digital Talents </string>
+
+    <!-- LOGIN SCREEN -->
+    <string name="welcome_text"> Welcome  </string>
+    <string name="email"> Email </string>
+    <string name="password"> Password </string>
+    <string name="forgot_password"> Forgot your password? </string>
+    <string name="login"> Login </string>
+    <string name="or"> Or </string>
+    <string name="no_account"> Don\'t have an account? </string>
+
+    <!-- SIGN UP SCREEN -->
+    <string name="create_acct"> Create an \nAccount </string>
+    <string name="first_name"> First name </string>
+    <string name="last_name"> Last name </string>
+    <string name="confirm_pass"> Confirm Password </string>
+    <string name="agree"> to Techsemester\'s  </string>
+    <string name="terms"> Terms &amp; Conditions </string>
+    <string name="have_acct"> Already have an account? </string>
+    <string name="sign_up"> Sign Up </string>
+    <string name="gender"> Gender </string>
+    <string name="phone"> Phone Number </string>
+    <string name="register"> Register </string>
+    <string name="state"> State </string>
+    <string name="checkbox_text1"> By Signing up on this platform, you agree </string>
+    <string name="select_gender"> Select a gender </string>
+    <string name="dob"> Date of Birth </string>
+
+    <!-- FORGOT PASSWORD -->
+    <string name="password_assist"> Password assistance </string>
+    <string name="remember_pass"> Remember Password? </string>
+    <string name="otp_text"> Please input the code sent to the above email address </string>
+    <string name="resend"> Resend </string>
+    <string name="no_otp"> If you didn\'t receive code!</string>
+    <string name="next"> Next </string>
+    <string name="reset_successful">Reset Successful  </string>
+    <string name="reset_text1"> Your password has been successfully reset,  </string>
+    <string name="reset_text2"> login below to access your account</string>
+    <string name="assist_text1"> Enter your username or email to recover your </string>
+    <string name="assist_text2"> password. You will receive an email with instructions, </string>
+    <string name="assist_text3"> If you are having problems recovering your password. </string>
+
+    <!-- ONBOARDING SCREENS -->
+    <string name="connect"> Connect </string>
+    <string name="co_learn"> Co-Learn </string>
+    <string name="co_share"> Co-Share </string>
+    <string name="skip"> Skip </string>
+    <string name="cont"> Continue </string>
+
+    <!-- BOTTOM NAVIGATION -->
+    <string name="home"> Home </string>
+    <string name="media"> Media </string>
+    <string name="post"> Post </string>
+    <string name="notifications"> Notifications </string>
+    <string name="profile"> Profile </string>
+
+    <!--SELECT GENDER -->
+    <string name="gender_select" id="0">Select Gender </string>
+    <string name="male"> Male </string>
+    <string name="female"> Female </string>
+
+
+    <string-array name="select_gender">
+        <item>@string/gender_select</item>
+        <item>@string/male</item>
+        <item>@string/female</item>
+
+    </string-array>
+
+    <!-- HOME FRAGMENT -->
+    <string name="search"> Search </string>
+    <string name="name"> Isaac Folarin </string>
+    <string name="date"> Sept 28, 2021 </string>
+    <string name="dummy_text" tools:ignore="TypographyEllipsis"> Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+        Commodo aliquam dictum eu in aliquet convallis commodo.</string>
+
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+
+</resources>
+

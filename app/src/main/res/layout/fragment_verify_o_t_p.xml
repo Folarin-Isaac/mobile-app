@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".VerifyOTP">
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/assist_heading"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/open_sans_bold"
+        android:text="@string/password_assist"
+        android:textColor="@color/ts_color"
+        android:textSize="25sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <View
+        android:id="@+id/view"
+        android:layout_width="70dp"
+        android:layout_height="3dp"
+        android:layout_marginTop="10dp"
+        android:background="@color/ts_color"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/assist_heading" />
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/otp_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="20dp"
+        android:text="@string/otp_text"
+        android:textColor="#474747"
+        android:textSize="15sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/view"/>
+
+    <in.aabhasjindal.otptextview.OtpTextView
+        android:id="@+id/otp_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/otp_text"
+        android:layout_marginTop="25dp"
+        app:otp_box_background="@drawable/otp_bg"
+        android:textColor="@color/black"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/no_otp_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/otp_view"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="25dp"
+        android:textColor="#474747"
+        android:text="@string/no_otp"/>
+
+    <com.google.android.material.textview.MaterialTextView
+        android:id="@+id/resend_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        app:layout_constraintTop_toBottomOf="@id/otp_view"
+        app:layout_constraintStart_toEndOf="@id/no_otp_text"
+        android:layout_marginTop="10dp"
+        android:layout_marginStart="5dp"
+        android:textStyle="bold"
+        android:textColor="@color/ts_color"
+        android:text="@string/resend"/>
+
+    <com.google.android.material.button.MaterialButton
+        android:id="@+id/next_button"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginStart="25dp"
+        android:layout_marginTop="15sp"
+        android:layout_marginEnd="25dp"
+        android:text="@string/next"
+        android:textColor="@color/white"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        app:cornerRadius="10dp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@id/resend_text" />
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
